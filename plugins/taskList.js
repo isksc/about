@@ -76,7 +76,7 @@ const taskList = {
     }
   },
   home: {
-    description: 'Back to home page.',
+    description: 'Current tabs back to home page.',
     home() {
       const p = new Promise((resolve, reject) => {
         let url = 'https://www.shancn.com'
