@@ -75,6 +75,17 @@ const taskList = {
       return p;
     }
   },
+  home: {
+    description: 'Back to home page.',
+    home() {
+      const p = new Promise((resolve, reject) => {
+        let url = 'https://blog.shancn.com'
+        window.open(url, '_blank')
+        resolve({ type: 'success', label: 'Done', message: 'Page Opened!' })
+      })
+      return p;
+    }
+  },
   // open: {
   //   description: 'Open a specified url in a new tab.',
   //   open(pushToList, input) {
