@@ -79,7 +79,7 @@ const taskList = {
     description: 'Back to home page.',
     home() {
       const p = new Promise((resolve, reject) => {
-        let url = 'https://blog.shancn.com'
+        let url = 'https://www.shancn.com'
         window.open(url, '_blank')
         resolve({ type: 'success', label: 'Done', message: 'Page Opened!' })
       })
