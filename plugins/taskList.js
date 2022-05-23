@@ -80,7 +80,7 @@ const taskList = {
     home() {
       const p = new Promise((resolve, reject) => {
         let url = 'https://www.shancn.com'
-        window.open(url, '_blank')
+        window.open(url, '_self')
         resolve({ type: 'success', label: 'Done', message: 'Page Opened!' })
       })
       return p;
@@ -100,7 +100,7 @@ const taskList = {
   //       if (input.split(' ')[1].indexOf('http') === -1) {
   //         url = 'http://' + input.split(' ')[1]
   //       }
-  //       window.open(url)
+  //       window.open(url, '_blank')
   //       resolve({ type: 'success', label: 'Done', message: 'Page Opened!' })
   //     })
   //     return p;
