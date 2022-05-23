@@ -100,7 +100,7 @@ const taskList = {
   //       if (input.split(' ')[1].indexOf('http') === -1) {
   //         url = 'http://' + input.split(' ')[1]
   //       }
-  //       window.open(url, '_blank')
+  //       window.open(url)
   //       resolve({ type: 'success', label: 'Done', message: 'Page Opened!' })
   //     })
   //     return p;
